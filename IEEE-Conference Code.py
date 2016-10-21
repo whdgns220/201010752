@@ -1,4 +1,3 @@
-﻿activate py27
 
 scrapy shell "https://www.ieee.org/conferences_events/index.html"
 
