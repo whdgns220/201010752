@@ -1,4 +1,3 @@
-﻿activate py27
 
 scrapy shell "https://www.google.com/finance/historical?q=KRX:KOSPI200&ei=Ujr_V8mvEsLY0gSWlIjACA"
 
