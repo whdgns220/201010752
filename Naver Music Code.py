@@ -1,4 +1,3 @@
-﻿activate py27
 
 scrapy shell "http://music.naver.com/search/search.nhn?query=%EB%B9%84+%EC%98%A4%EB%8A%94&x=0&y=0"
 
