@@ -52,7 +52,7 @@ for tweet in tsearch_json['statuses']:
 
 
 f=open('ds_twitter_3.txt','w')
-for j,tweet in enumerate(tsearch_json['statuses']):
+for i,tweet in enumerate(tsearch_json['statuses']):
     print i,tweet['id'],tweet['text']
     j=json.dumps([j,tweet['id'],tweet['text']])
     f.write(j)
